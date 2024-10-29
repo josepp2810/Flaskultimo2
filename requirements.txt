@@ -1,0 +1,4 @@
+flask
+pandas
+numpy
+azure-storage-blob
