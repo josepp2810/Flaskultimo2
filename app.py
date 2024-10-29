@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 
 
-connect_str = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+connect_str = os.getenv('AZURE_STORAGE_KEY_FLASK')
 container_name = "t1archivostablas"  # Nombre de tu contenedor
 blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
